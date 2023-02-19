@@ -5,6 +5,7 @@ import frame2 from '../../assets/Frame2.png'
 import frame3 from '../../assets/Frame3.png'
 import tick from '../../assets/tick-circle.png'
 import Login from '../../components/Login'
+import { Link } from 'react-router-dom'
 
 interface Active {
   active: {
@@ -26,7 +27,9 @@ const Home = () => {
   return (
     <div className='mx-auto gap-4 flex-row md:flex transition-all'>
       <div className='mb-16 p-8 pt-10 basis-2/4 lg:pl-20'>
-        <img src={logo} alt="logo" className='pb-4' />
+        <Link to={"/"}>
+          <img src={logo} alt="logo" className='pb-4' />
+        </Link>
         <div>
           <h1 className='text-2xl font-semibold py-2 px-2'>Hi there, see what's new</h1>
           <p className='mb-10 px-2'>Here’s how Foodcourt helps you manage your daily operations and ensure your riders are efficient</p>

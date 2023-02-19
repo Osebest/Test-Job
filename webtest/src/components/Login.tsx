@@ -45,7 +45,7 @@ const Login = () => {
               <img src={eye} alt="eye" className='w-2/4' />
             </div>
           </div>
-          <button className='bg-[#1CC578] text-white py-3 px-4 rounded-full mt-10'>Login</button>
+          <button className='bg-[#1CC578] text-white py-3 px-4 rounded-full mt-10 hover:bg-[#17a867]'>Login</button>
         </form>
       </div>
     </div>

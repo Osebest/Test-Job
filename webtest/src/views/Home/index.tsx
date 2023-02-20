@@ -33,7 +33,7 @@ const Home = () => {
         <div>
           <h1 className='text-2xl font-semibold py-2 px-2'>Hi there, see what's new</h1>
           <p className='mb-10 px-2'>Here’s how Foodcourt helps you manage your daily operations and ensure your riders are efficient</p>
-          <div 
+          <div
             onClick={() => setActive({ ...active, frame1: !active.frame1 })}
             className={`flex md:flex-col lg:flex-row items-start text-neutral-500 gap-4 my-6 px-2 rounded-2xl py-2 cursor-pointer hover:bg-[#F8F8F6] hover:text-black group ${active.frame1 ? "bg-[#F8F8F6] text-black" : ""}`}
           >
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <img src={tick} alt="tick" className={`self-center pr-2 opacity-0 transition-all group-hover:opacity-100 ${active.frame1 ? "opacity-100" : ""}`} />
           </div>
-          <div 
+          <div
             onClick={() => setActive({ ...active, frame2: !active.frame2 })}
             className={`flex md:flex-col lg:flex-row items-start text-neutral-500 gap-4 my-6 px-2 rounded-2xl py-2 cursor-pointer hover:bg-[#F8F8F6] hover:text-black group ${active.frame2 ? "bg-[#F8F8F6] text-black" : ""}`}
           >
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
             <img src={tick} alt="tick" className={`self-center pr-2 opacity-0 transition-all group-hover:opacity-100 ${active.frame2 ? "opacity-100" : ""}`} />
           </div>
-          <div 
+          <div
             onClick={() => setActive({ ...active, frame3: !active.frame3 })}
             className={`flex md:flex-col lg:flex-row items-start text-neutral-500 gap-4 my-6 px-2 rounded-2xl py-2 cursor-pointer hover:bg-[#F8F8F6] hover:text-black group ${active.frame3 ? "bg-[#F8F8F6] text-black" : ""}`}
           >
